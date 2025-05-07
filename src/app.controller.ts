@@ -10,12 +10,12 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get()
+  @Get('test')
   getTest(): object {
     return { data: 'test', message: 'test' };
   }
 
-  @Get()
+  @Get('siuu')
   getsiuu(): object {
     return { data: 'siuu', message: 'siuu' };
   }
